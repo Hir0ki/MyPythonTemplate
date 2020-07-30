@@ -1,0 +1,10 @@
+{
+    "project_name": "Name of the project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "A short description of the project",
+    "full_name": "Your name",
+    "python_version": "Python version 3.7, 3.8",
+    "email": "Your address email (you@example.com)",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0"
+}
